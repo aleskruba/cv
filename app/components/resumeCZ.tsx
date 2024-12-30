@@ -5,7 +5,7 @@ import { styles } from './style';
 import { useEffect, useState } from "react";
 
 
-export const MyCV = () => { 
+export const MyCVCZ = () => { 
   const [note, setNote] = useState<string>("");
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export const MyCV = () => {
 
              <View style={styles.leftTextContainer}>
                 <View style={styles.leftTextContainerTitle}>
-                <Text style={styles.leftTextContainerTitleText} >CONTACT</Text>
+                <Text style={styles.leftTextContainerTitleText} >KONTAKT</Text>
               </View>
             <View style={styles.leftInfoContainer}>
 
@@ -44,7 +44,7 @@ export const MyCV = () => {
 
                      <View style={styles.leftInfoContainerInner}>
                       <Image src='./redpoint2.png' style={styles.icons} />
-                        <Text style={styles.leftTextContainerTitleTextInner } >Brno, Czechia</Text>
+                        <Text style={styles.leftTextContainerTitleTextInner } >Brno, Česká republika</Text>
                      </View>
                      <View style={styles.leftInfoContainerInner}>
                       <Image src='./globe.png' style={styles.icons} />
@@ -55,7 +55,7 @@ export const MyCV = () => {
             </View>
 
             <View style={styles.leftTextContainerTitle}>
-                <Text style={styles.leftTextContainerTitleText} >EDUCATION</Text>
+                <Text style={styles.leftTextContainerTitleText} >VZDĚLÁNÍ</Text>
               </View>
               <View style={styles.leftInfoContainer}>
       
@@ -65,14 +65,14 @@ export const MyCV = () => {
              <View style={styles.leftInfoContainerEducation}>
                 <Text style={styles.leftTextContainerTitleTextInner } >1996 -1998</Text>
                 <Text style={styles.leftTextContainerTitleTextInner } >VUT Brno, Stavební fakulta</Text>
-                <Text style={styles.leftTextContainerTitleTextInnerred } >unfinished </Text>
+                <Text style={styles.leftTextContainerTitleTextInnerred } >nedokonceno</Text>
 
              </View>
 
               </View>
 
               <View style={styles.leftTextContainerTitle}>
-                <Text style={styles.leftTextContainerTitleText} >CERTIFICATES</Text>
+                <Text style={styles.leftTextContainerTitleText} >CERTIFIKÁTY</Text>
               </View>
               <View style={styles.leftInfoContainer}>
               <Text style={styles.leftTextContainerTitleTextInner } >- META Frontend 2024</Text>
@@ -81,7 +81,7 @@ export const MyCV = () => {
               </View>
 
               <View style={styles.leftTextContainerTitle}>
-                <Text style={styles.leftTextContainerTitleText} >SKILLS</Text>
+                <Text style={styles.leftTextContainerTitleText} >DOVEDNOSTI</Text>
               </View>
               <View style={styles.leftInfoContainer}>
                 <Text style={styles.leftTextContainerTitleTextInner } >Frontend</Text>
@@ -100,18 +100,18 @@ export const MyCV = () => {
                 <Text style={styles.leftTextContainerTitleTextInner } >- MongoDB</Text>
               </View>
               <View style={styles.leftInfoContainer}>
-                <Text style={styles.leftTextContainerTitleTextInner } >Others</Text>
+                <Text style={styles.leftTextContainerTitleTextInner } >Ostatní</Text>
                 <Text style={styles.leftTextContainerTitleTextInner } >- Git</Text>
                 <Text style={styles.leftTextContainerTitleTextInner } >- Docker</Text>
 
               </View>
               <View style={styles.leftTextContainerTitle}>
-                <Text style={styles.leftTextContainerTitleText} >LANGUAGES</Text>
+                <Text style={styles.leftTextContainerTitleText} >JAZYKY</Text>
               </View>
               <View style={styles.leftInfoContainer}>
-              <Text style={styles.leftTextContainerTitleTextInner } >- Czech</Text>
-              <Text style={styles.leftTextContainerTitleTextInner } >- English</Text>
-              <Text style={styles.leftTextContainerTitleTextInner } >- Spanish</Text>
+              <Text style={styles.leftTextContainerTitleTextInner } >- čeština</Text>
+              <Text style={styles.leftTextContainerTitleTextInner } >- Angličtina</Text>
+              <Text style={styles.leftTextContainerTitleTextInner } >- Španělština</Text>
               </View>
             </View>
 
@@ -136,13 +136,13 @@ export const MyCV = () => {
 
 
           <View style={styles.rightColumnProfile}>
-          <Text style={styles.rightTextContainerTitleText} >PROFILE</Text>
+          <Text style={styles.rightTextContainerTitleText} >PROFIL</Text>
           </View>
-              <Text style={styles.rightTextContainerContentText}>I am a 46-year-old amateur full-stack developer focusing on web application development. I started programming a few years ago when I learned the basics of Python, JavaScript, CSS, and gradually became familiar with libraries like React.js and frameworks like Next.js, Express.js, Flask, Django.
-          Although I don’t have professional experience in web development yet, I am highly motivated and continuously learning new technologies and techniques. My goal is to grow in this field and utilize my skills to create high-quality web applications. I am looking for an opportunity to fully dedicate myself to web development and take my career to the next level.
+              <Text style={styles.rightTextContainerContentText}>Jsem 46letý amatérský full-stack vývojář zaměřující se na vývoj webových aplikací. S programováním jsem začal před několika lety, když jsem se naučil základy Pythonu, JavaScriptu, CSS a postupně jsem se seznámil s knihovnami jako React.js a frameworky jako Next.js, Express.js, Flask, Django.
+              Ačkoliv ještě nemám profesionální zkušenosti s vývojem webových aplikací, jsem velmi motivovaný a neustále se učím nové technologie a techniky. Mým cílem je růst v tomto oboru a využít své dovednosti k vytváření kvalitních webových aplikací. Hledám příležitost, kde se mohu plně věnovat webovému vývoji a posunout svou kariéru na vyšší úroveň.
         </Text>
         <Text style={styles.rightTextContainerContentText}>
-          Following a lifelong career in transportation and logistics, I decided to fully transition into web development. I am self-taught and during my career, I have created several personal projects where I applied my skills in design and application development, which helped me grow further.        </Text>
+        Po celoživotní kariéře v oblasti dopravy a logistiky jsem se rozhodl plně přejít na webový vývoj. Jsem samouk a během své kariéry jsem vytvořil několik osobních projektů, při kterých jsem uplatnil své dovednosti v oblasti designu a vývoje aplikací, což mi pomohlo dále růst.   </Text>
 
 
         <View style={styles.rightColumnProfile}>
@@ -160,8 +160,7 @@ export const MyCV = () => {
 
         <View style={styles.rightColumnWorkExperience}>
         <Text style={styles.rightTextContainerContentText}>
-        As a Logistics Coordinator (or Dispatcher), I was responsible for communicating with customers and suppliers, ensuring smooth operations within the logistics process. I organized domestic parcel deliveries and full truck transports, optimizing routes and managing scheduling to ensure timely and efficient deliveries. My role involved coordinating with both internal teams and external partners to meet customer requirements and handle any logistical challenges. Additionally, I ensured that all documentation was accurate and up to date, contributing to seamless supply chain operations
-        </Text>
+        Jako koordinátor logistiky (nebo dispečer) jsem byl zodpovědný za komunikaci s zákazníky a dodavateli, zajišťování hladkého průběhu operací v rámci logistického procesu. Organizoval jsem domácí doručení balíků a plné nákladní dopravy, optimalizoval trasy a řídil harmonogramy, abych zajistil včasné a efektivní dodávky. Má role zahrnovala koordinaci mezi interními týmy a externími partnery za účelem splnění požadavků zákazníků a řešení jakýchkoli logistických výzev. Dále jsem zajišťoval, že veškerá dokumentace byla přesná a aktuální, což přispívalo k plynulému fungování dodavatelského řetězce.        </Text>
         </View>
         
         <View style={styles.rightColumnWorkExperience}>
@@ -174,8 +173,7 @@ export const MyCV = () => {
 
         <View style={styles.rightColumnWorkExperience}>
         <Text style={styles.rightTextContainerContentText}>
-        As the Logistics Manager at PLASTOCHEM spol s r.o., I was responsible for overseeing the transportation of the company’s goods, ensuring timely and cost-effective deliveries. I played a key role in optimizing the supply chain process, coordinating with suppliers, and managing internal logistics operations. Additionally, I successfully established the Freight Forwarding department, where we organized transportation services for external clients, contributing to revenue generation and expanding the company’s logistics services.In 2015, PLASTOCHEM merged with the Swiss company Omya, and as a result, our Transport and Freight Forwarding department was closed. 
-        </Text>
+        Jako logistický manažer ve společnosti PLASTOCHEM spol. s r.o. jsem byl zodpovědný za dohled nad přepravou zboží společnosti a zajišťování včasných a nákladově efektivních dodávek. Hrával jsem klíčovou roli při optimalizaci procesu dodavatelského řetězce, koordinaci s dodavateli a řízení interních logistických operací. Kromě toho jsem úspěšně založil oddělení dopravy a přepravy, kde jsme organizovali přepravní služby pro externí klienty, což přispělo k generování příjmů a rozšíření logistických služeb společnosti. V roce 2015 došlo ke sloučení společnosti PLASTOCHEM se švýcarskou společností Omya, a v důsledku toho bylo naše oddělení dopravy a přepravy uzavřeno.        </Text>
         </View>
 
         <View style={styles.rightColumnWorkExperience}>
@@ -189,7 +187,8 @@ export const MyCV = () => {
 
         <View style={styles.rightColumnWorkExperience}>
         <Text style={styles.rightTextContainerContentText}>
-        For over 10 years, I have been involved in transportation and logistics at the freight forwarding company DOKRAM s.r.o., where I am responsible for a wide range of activities, including organizing and coordinating shipments, negotiating with suppliers and customers. In addition, I also serve as the company owner. Furthermore, I manage the company's IT infrastructure, including maintaining small networks, installing and configuring software, and managing websites.        </Text>
+
+        Více než 10 let jsem se věnoval dopravě a logistice ve freight forwardingové společnosti DOKRAM s.r.o., kde jsem zodpovědný za širokou škálu činností, včetně organizace a koordinace přeprav, vyjednávání s dodavateli a zákazníky. Kromě toho působím také jako majitel společnosti. Dále se starám o IT infrastrukturu společnosti, včetně správy malých sítí, instalace a konfigurace softwaru a správy webových stránek.            </Text>
         </View>
 
         </View>

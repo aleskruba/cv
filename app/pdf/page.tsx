@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import {  PDFViewer} from '@react-pdf/renderer';
 import { MyCV } from '../components/resume';
+import { MyCVCZ } from '../components/resumeCZ';
 
 
 export default function MyResume() {
@@ -17,7 +18,7 @@ export default function MyResume() {
              { isClient ?
           <div className='w-full h-[750px]'>
             <PDFViewer width="100%" height="100%"> 
-              <MyCV/>
+              <MyCVCZ/>
             </PDFViewer> 
           </div>      : null}
         </div>
